@@ -1,0 +1,53 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(https://cdn1.vectorstock.com/i/1000x1000/96/75/high-tech-technology-geometric-vector-28109675.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#whitebox {
+    background-color: white;
+    color:slategray;
+    width: 600px;
+    padding: 50px 10px 25px 10px;
+    position:fixed;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+#h1text {
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submitbutton {
+    text-align:center;
+    margin-top:20px;
+}
+
+#subscribe {
+    width: 13.25em;
+    height: 2em;
+    background-color: #26596A;
+    color:white;
+    border: none;
+}
+
+#subscribe:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
